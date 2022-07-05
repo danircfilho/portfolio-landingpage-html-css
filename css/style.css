@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header #subscription {
+  display: flex;
+  background-image: url("/img/header.jpg");
+/*   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+  url("/img/header.jpg"); */
+  background-position: center;
+  background-size: cover;
+  height: 85vh;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.subscription-text {
+  display: flex;
+}
+
+.subscription-form {
+  display: flex;
+}
+
