@@ -4,26 +4,74 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <!--CSS-->
   <link rel="stylesheet" href="/css/style.css">
+  <!--ICON-->
+  <Link:icon>
+  <!--FONTS-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&family=Splash&display=swap" rel="stylesheet">
+  <title>Landing Page</title>
 </head>
 <body>
   <header id="subscription">
-    <div class="subscription-text">
-      <h2>Title Page</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></br>
-      <p>Date:</p></br>
-      <p>Local</p></br>
+    <div>
+      <h2 class="subscribe">InTech</h2>
+      <p class="subscribe-text">Come and join</p>
+      <p class="subscribe-text">this great event</p>
+      <p class="subscribe-text-event">Date of the event:</p>
+      <p class="subscribe-text-date">Saturday, May 15, from 2pm...</p>
     </div>
+    <!-- Form -->
     <div class="subscription-form">
+      <p>Fill in the form to receive event details</p>
       <form>
-        <div>
-          <label for="">Name</label>
-          <input type="text" placeholder="Your name">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" placeholder="your name"/>
         </div>
-
+        <div class="form-group">
+          <label for="email">E-mail</label>
+          <input type="email" placeholder="your best e-mail"/>
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone</label>
+          <input type="text" placeholder="number phone"/>
+        </div>
+        <div class="form-group">
+          <label for="interest">Interest</label>
+          <select name="interest">
+            <option value="" disabled selected>Select</option>
+            <option value="technology">Technology</option>
+            <option value="oportunity">Oportunity</option>
+            <option value="network">Network</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <input type="submit" class="btn" value="Sign Up" />
       </form>
     </div>
   </header>
+
+  <!-- Division -->
+  <div class="mid-menu">Divisory</div>
+
+  <!-- Section -->
+  <section class="section">
+      <div class="section-img">
+        <div id="image-1" class="rounded-img"></div>      
+        <p>Dolor, sit amet consectetur adipisicing elit. Odio, reprehenderit a. Quos in velit, praesentium excepturi impedit cumque suscipit magnam tempora rerum fuga quam, porro, tenetur.</p> 
+      </div>
+      <div class="section-img">
+        <div id="image-2" class="rounded-img"></div>      
+        <p>Dolor, sit amet consectetur adipisicing elit. Odio, reprehenderit a. Quos in velit, praesentium excepturi impedit cumque suscipit magnam tempora rerum fuga quam, porro, tenetur.</p> 
+      </div>
+      <div class="section-img">
+        <div id="image-3" class="rounded-img"></div>      
+        <p>Dolor, sit amet consectetur adipisicing elit. Odio, reprehenderit a. Quos in velit, praesentium excepturi impedit cumque suscipit magnam tempora rerum fuga quam, porro, tenetur.</p> 
+      </div>
+  </section>
+
 </body>
 </html>

@@ -1,27 +1,178 @@
 * {
+  font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
 }
 
+/* Header */
 #subscription {
   display: flex;
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-  url("/img/header.jpg");
+  flex-wrap: wrap;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url("/img/door.jpg");
   background-size: cover;
-  height: 60vh;
+  height: 85vh;
   justify-content: space-around;
-  align-items: center;
+  align-items: center;  
 }
 
-.subscription-text {
-  display: flex;
+.subscribe {
+  font-size: 4em;
+  font-weight: 500;
+  color: #F9139f;
+  text-shadow: 2px 2px #000000;
+}
 
+.subscribe-text {
+  font-size: 3em;
+  font-weight: 400;
+  font-weight: lighter;
+  color: white;
+  text-shadow: 1px 1px #000000;
+  margin-top: 10px;
+}
+
+.subscribe-text-event {
+  font-size: 1.5em;
+  font-weight: 300;
+  color: #ffffff;
+  text-shadow: 1px 1px #000000;
+  margin-top: 10px;
+}
+
+.subscribe-text-date {
+  font-size: 1.5em;
+  font-weight: 600;
+  color: #F9139f;
+  text-shadow: 1px 1px #000000;
 }
 
 .subscription-form {
-/*   flex: 50%; */
-  padding: 20px;
-
-  background-color: blue;
+  background-color: #139ff9;
+  border-radius: 10px;
+  opacity: .8;
+  max-width: 25%;
+  padding: 1em 1.5em;
+  box-shadow: 0 0 1em #139ff9
 }
 
+.subscription-form p {
+  font-size: 1.5em;
+  color: #ffffff;
+  text-shadow: 1px 1px #000000;
+  padding-bottom: 10px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-size: 1em;
+  color: #ffffff;
+  text-shadow: 1px 1px #000000;
+  padding-top: 15px;
+}
+
+.form-group input, select {
+  font-size: 1em;
+  font-weight: 400;
+  color: #494949;
+  padding: 6px 8px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.btn {
+  background: #132cf9;
+  border: none;
+  color: #ffffff;
+  padding: 10px 40px;
+  margin-top: 20px;
+  border-radius: 25px;
+  box-shadow: 0 0 1em #000000;  
+}
+
+.btn:active {
+  transform: scale(0.98); 
+}
+
+/* Division */
+.mid-menu {
+  height: 15vh;
+  background-color: aqua;
+}
+
+/* ====================================== Section ====================================== */
+section.section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 4em;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.section-img {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 20%;
+}
+
+.section-img .rounded-img{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 1em;
+}
+
+#image-1 {
+  background: url("/img/ai-rounded.jpg");
+}
+
+#image-2 {
+  background: url("/img/homeoffice-rounded.jpg");
+}
+
+#image-3 {
+  background: url("/img/hacker-rounded.jpg");
+}
+
+
+/* Form */
+@media (max-width: 900px) {
+  #subscription {
+    height: auto;
+  }
+
+  .subscription-form {
+    margin: 1em;
+    max-width: 40%;
+  }
+}
+
+@media (max-width: 450px) {
+  #subscription {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .subscription-form {
+    margin: 1em;
+    max-width: 100%; 
+  }
+}
+
+/* Rounded - Images*/
+@media (max-width: 800px) {
+  .section-image {
+    flex-direction: column;
+  }
+  
+}
