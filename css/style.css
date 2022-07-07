@@ -53,7 +53,7 @@
   opacity: .8;
   max-width: 25%;
   padding: 1em 1.5em;
-  box-shadow: 0 0 1em #139ff9
+  box-shadow: 0 0 1em #139ff9;
 }
 
 .subscription-form p {
@@ -110,7 +110,7 @@
   color: #ffffff;
 }
 
-/* ====================================== Section ====================================== */
+/* Section  */
 .section {
   display: flex;
   justify-content: space-around;
@@ -150,19 +150,104 @@
 
 /* Address - Location */
 .location {
-  height: 450px;
+  height: 430px;
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url("/img/meet.jpg");
   background-position: center;
   background-size: cover;
+  color: #00baf2;
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  color: #00baf2;
+  justify-content: center;
   margin-bottom: 3em;
 }
 
+.bi-geo-alt-fill {
+  font-size: 4rem; 
+  padding-right: .5em;
+}
 
+.location-address {
+  font-size: 1.5em;
+  font-weight: 100;
+  text-shadow: 2px 2px #000000;
+  width: 30%;
+}
+
+.location-address .p1 {
+  font-weight: 400;
+}
+
+.location-text {
+  width: 30%;
+}
+
+.location-text h2 {
+  font-size: 2.5em;
+  font-weight: 400;
+  color: #F9139f;
+  text-shadow: 2px 2px #000000;
+}
+
+.location-text p {
+  font-size: 1.5em;
+  font-weight: lighter;
+  text-shadow: 2px 2px #000000;
+}
+
+/* Diversity */
+.diversity {
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 2em;
+}
+
+.diversity-img img {
+  width: 450px;
+  height: auto;
+}
+
+.diversity-text i {
+  font-size: 2em;
+  align-items: center;
+  color: #F9139f;
+}
+
+.h-diversity {
+  font-size: 2em;
+  font-weight: 600;
+  color: #139ff9;
+}
+
+.p-diversity {
+  font-size: 1em;
+  font-weight: 600;
+}
+
+
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 3em 2em;
+  color: #9b9b9b;
+}
+
+.footer-text {
+  padding: 1em;
+}
+
+.footer span{
+  font-weight: bolder;
+}
+
+
+
+
+/* Media Query */
 @media (max-width: 800px) {
   /* Form */
   #subscription {
@@ -182,10 +267,18 @@
     padding: 2em;
   }
 
-  .section-img{
+  .section-img {
     max-width: 100%;
     margin-bottom: 2em;
   }
+
+  /* Location */
+  .location {
+    align-items: center;
+    height: auto;
+    padding: 2em;
+  }
+
 }
 
 @media (max-width: 550px) {
@@ -211,6 +304,19 @@
   .section-img{
     max-width: 100%;
     margin-bottom: 2em;
+  }
+
+  /* Location */
+  .location {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    font-size: .8em;
+    padding: 2em;
+  }
+
+  .location-text {
+    padding-top: 2em;
   }
 }
 

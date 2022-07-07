@@ -6,92 +6,134 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!--CSS-->
   <link rel="stylesheet" href="/css/style.css">
-  <!--ICON-->
-  <Link:icon>
+  <!--ICON-BOOTSTRAP-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
   <!--FONTS-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&family=Splash&display=swap" rel="stylesheet">
   <title>Landing Page</title>
 </head>
-<body>
-  <header id="subscription">
-    <div>
-      <h2 class="subscribe">InTech</h2>
-      <p class="subscribe-text">Come and join</p>
-      <p class="subscribe-text">this great event</p>
-      <p class="subscribe-text-event">Date of the event:</p>
-      <p class="subscribe-text-date">Saturday, May 15, from 2pm...</p>
-    </div>
-    <!-- Form -->
-    <div class="subscription-form">
-      <p>Fill in the form to receive event details</p>
-      <form>
-        <div class="form-group">
-          <label for="name">Name</label>
-          <input type="text" placeholder="your name"/>
-        </div>
-        <div class="form-group">
-          <label for="email">E-mail</label>
-          <input type="email" placeholder="your best e-mail"/>
-        </div>
-        <div class="form-group">
-          <label for="phone">Phone</label>
-          <input type="text" placeholder="number phone"/>
-        </div>
-        <div class="form-group">
-          <label for="interest">Interest</label>
-          <select name="interest">
-            <option value="" disabled selected>Select</option>
-            <option value="technology">Technology</option>
-            <option value="oportunity">Oportunity</option>
-            <option value="network">Network</option>
-            <option value="other">Other</option>
-          </select>
-        </div>
-        <input type="submit" class="btn" value="Sign Up" />
-      </form>
-    </div>
-  </header>
-
-  <!-- Division -->
-  <div class="mid-menu">
-    <p>Sequi voluptatem error ut id vero corrupti qui nobis voluptatum.      
-    </p>
-  </div>
-
-  <!-- Section -->
-  <section class="section">
-      <div class="section-img">
-        <div id="image-1" class="rounded-img"></div>      
-        <p>Dolor, sit amet consectetur adipisicing elit. Odio, reprehenderit. Quos in velit, praesentium.</p> 
-      </div>
-      <div class="section-img">
-        <div id="image-2" class="rounded-img"></div>      
-        <p>Dolor, sit amet consectetur adipisicing elit. Odio, reprehenderit a. Quos in velit, praesentium.</p> 
-      </div>
-      <div class="section-img">
-        <div id="image-3" class="rounded-img"></div>      
-        <p>Dolor, sit amet consectetur adipisicing elit. Odio, reprehenderit a. Quos in velit, praesentium.</p> 
-      </div>
-  </section>
-  <section class="location">
-      <div class="">
-        <i>Ícone</i> 
-        <div>   
-          <p></p> 
-          <p></p> 
-          <p></p> 
-        </div> 
-      </div>
+  <body>
+    <header id="subscription">
       <div>
-        <h2 class="">InTech</h2>
-        <p class="">Come and join</p>
-        <p class="">this great event</p>
-        <p class="">Date of the event:</p>
-        <p class="">Saturday, May 15, from 2pm...</p>
+        <h2 class="subscribe">InfoTech</h2>
+        <p class="subscribe-text">Come and join</p>
+        <p class="subscribe-text">this great event</p>
+        <p class="subscribe-text-event">Date of the event:</p>
+        <p class="subscribe-text-date">Saturday, May 15, from 2pm...</p>
+      </div>
+      <!-- Form -->
+      <div class="subscription-form">
+        <p>Fill in the form to receive event details</p>
+        <form>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" placeholder="your name"/>
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" placeholder="your best e-mail"/>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone</label>
+            <input type="text" placeholder="number phone"/>
+          </div>
+          <div class="form-group">
+            <label for="interest">Interest</label>
+            <select name="interest">
+              <option value="" disabled selected>Select</option>
+              <option value="technology">Technology</option>
+              <option value="oportunity">Oportunity</option>
+              <option value="network">Network</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <input type="submit" class="btn" value="Sign Up" />
+        </form>
+      </div>
+    </header>
+
+    <!-- Division -->
+    <div class="mid-menu">
+      <p>Sequi voluptatem error ut id vero corrupti qui nobis voluptatum.      
+      </p>
+    </div>
+
+    <!-- Sections Rounded Image -->
+    <section class="section">
+        <div class="section-img">
+          <div id="image-1" class="rounded-img"></div>      
+          <p>Dolor, sit amet consectetur adipisicing elit. Odio, reprehenderit. Quos in velit, praesentium.</p> 
+        </div>
+        <div class="section-img">
+          <div id="image-2" class="rounded-img"></div>      
+          <p>Dolor, sit amet consectetur adipisicing elit. Odio, reprehenderit a. Quos in velit, praesentium.</p> 
+        </div>
+        <div class="section-img">
+          <div id="image-3" class="rounded-img"></div>      
+          <p>Dolor, sit amet consectetur adipisicing elit. Odio, reprehenderit a. Quos in velit, praesentium.</p> 
+        </div>
+    </section>
+    <!-- Sections Location -->
+    <section class="location">
+        <div>
+          <i class="bi bi-geo-alt-fill"></i>
+        </div>
+        <div class="location-address">
+          <p class="p1">2900 Street</p>
+          <p>City MN 54321</p>
+          <p>COUNTRY</p>
+        </div>
+        <div class="location-text">
+          <h2>InfoTech</h2>
+          <p>Amet consectetur adipisicing elit. Sunt tempore dicta corporis quae.</p>
+        </div>
+    </section>
+    <!-- Sections Diversity -->
+    <section class="diversity">
+        <div class="diversity-img">
+          <img src="/img/diversity-1.jpg" alt="Work" />
+        </div>        
+        <div class="diversity-text">
+          <h2 class="h-diversity">Consectetur adipisicing!</h2>
+          <p>Commodi doloribus modi esse, minus dolorum.</p>
+          <p>Consectetur perspiciatis officia? Quaerat, placeat!</p>
+          <p>Consequatur modi itaque excepturi temporibus...</p>
+        </div>
+      </section>
+      <section class="diversity">
+        <div class="diversity-text">
+          <p class="p-diversity"><i class="bi bi-code-slash"></i>&nbsp;&nbsp; Commodi doloribus modi esse, minus dolorum.</p>
+          <p class="p-diversity"><i class="bi bi-cpu"></i>&nbsp;&nbsp; Consectetur perspiciatis officia? Quaerat, placeat!</p>
+          <p class="p-diversity"><i class="bi bi-cloudy"></i>&nbsp;&nbsp; Consequatur modi itaque excepturi temporibus...</p>
+        </div>
+        <div class="diversity-img">
+          <img src="/img/diversity-2.jpg" alt="Work" />
+        </div>        
+    </section>
+    <section class="diversity">
+      <div class="diversity-img">
+        <img src="/img/diversity-3.jpg" alt="Work" />
+      </div>        
+      <div class="diversity-text">
+        <h3><i class="bi bi-quote"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit...</h3>
+      </div>
+    </section>
+
+    <section class="location">
+      <div class="location-text">
+        <p>Amet consectetur adipisicing elit.</p>
+        <button class="btn">Solicitar Inscrição</button>
       </div>
   </section>
 
-</body>
+
+    <footer class="footer">
+      <h2>InfoTech</h2>
+      <p class="footer-text">Sit amet consectetur adipisicing elit expedita laboriosam at doloribus.</p>
+      <p><span>Contact:</span> email@infotechemail.com</p>
+      <p><span>Phone:</span> (11) 99999-9999</p>
+    </footer>
+  </body>
 </html>
