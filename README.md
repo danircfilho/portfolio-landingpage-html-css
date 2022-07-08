@@ -15,7 +15,7 @@
 
 ## View this project:
 
-https://daniel-onepage-bootstrap5.netlify.app
+https://daniel-landingpage-htmcss.netlify.app/
 
 Copyrigth (c) 2022 - Daniel Rodrigues de Carvalho Filho
 
