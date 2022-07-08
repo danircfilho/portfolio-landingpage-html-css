@@ -202,7 +202,7 @@
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  margin: 2em;
+  margin: 2em 1em 3em;
 }
 
 .diversity-img img {
@@ -227,7 +227,36 @@
   font-weight: 600;
 }
 
+.coming-bg {
+  height: 250px;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("/img/coffe-cup.jpg");
+  background-position: center;
+  background-size: cover;
+  color: #00baf2;
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+}
 
+.coming p {
+  margin-bottom: 2em;
+}
+
+.btn-footer {
+  display: flex;
+  background: #132cf9;
+  border: none;
+  color: #ffffff;
+  padding: 15px 60px;
+  margin: 0 auto;
+  border-radius: 25px;
+  box-shadow: 0 0 1em #132cf9;
+}
+
+.btn-footer:active {
+  transform: scale(0.98); 
+}
 
 /* Footer */
 .footer {
@@ -244,11 +273,8 @@
   font-weight: bolder;
 }
 
-
-
-
 /* Media Query */
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   /* Form */
   #subscription {
     height: auto;
@@ -279,9 +305,17 @@
     padding: 2em;
   }
 
+  /* Diversity */
+  .media-img {
+    order: 1;
+  }
+
+  .media-p {
+    order: 2;
+  }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 700px) {
   /* Form */
   #subscription {
     flex-direction: column;
@@ -317,6 +351,11 @@
 
   .location-text {
     padding-top: 2em;
+  }
+
+  /* Diversity */
+  .diversity img {
+    max-width: 100%;
   }
 }
 
