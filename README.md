@@ -15,7 +15,7 @@
 
 ## View this project:
 
-https://daniel-landingpage-htmlcss.netlify.app/
+https://danielrodrigues.dev.br/landing
 
 Copyrigth (c) 2022 - Daniel Rodrigues de Carvalho Filho
 
