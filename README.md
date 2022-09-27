@@ -9,10 +9,6 @@
 - CSS
 - HTML
 
-## Hosting
-
-- Frontend: Netlify
-
 ## View this project:
 
 https://danielrodrigues.dev.br/landing
